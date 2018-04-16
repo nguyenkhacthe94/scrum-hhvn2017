@@ -6,9 +6,11 @@ $(function(){
         if( $(window).scrollTop() > stickyHeaderTop ) {
             $('#menu-content').css({position: 'fixed', top: '0px'});
             $('#news-body').css('display', 'block');
+            $('#sponsor-content').css('display', 'block');
+
         } else {
             $('#menu-content').css({position: 'static', top: '0px'});
-            $('#sponsor-content').css('display', 'none');
+            $('#footer-content').css('display', 'none');
         }
     });
 });

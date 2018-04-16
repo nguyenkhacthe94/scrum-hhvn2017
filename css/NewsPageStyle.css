@@ -191,7 +191,7 @@ p{
 }
 
 #news-body .news-left {
-    width: 66%;
+    width: 63%;
     float: left;
     padding-left: 20px;
 }
@@ -201,8 +201,8 @@ p{
 }
 
 #news-body .content-news .news-left .swiper-container .swiper-wrapper .swiper-slide img{
-    height: 1400px;
-    width: 740px;
+    width: 738px;
+    height: 1000px;
     object-fit: cover;
     /*vertical-align: center;*/
 }
@@ -251,7 +251,7 @@ p{
 }
 
 #news-body .swiper-slide img{
-    width: 780px;
+    width: 100%;
     height: 1000px;
 }
 
@@ -268,6 +268,8 @@ p{
 #news-body .news-info {
     margin: 0px;
     padding: 0px;
+    width: 100%;
+    height: auto;
 }
 
 #news-body .row-news-info {
@@ -277,11 +279,16 @@ p{
 }
 
 #news-body .col-news-info {
-    width: 30%;
+    width: 27%;
     margin-right: 10px;
     margin-top: 10px;
     padding-left: 10px;
     float: left;
+}
+
+#news-body .col-news-info a img{
+    width: 100%;
+    height: auto;
 }
 
 #news-body .box-text {
@@ -322,14 +329,23 @@ p{
     clear: both;
 }
 
-#news-body .latest-news img {
+#news-body .latest-news .img-news {
     float: left;
-    width: 40%;
+    width: 30%;
+    padding-right: 10px;
 }
 
-#news-body .latest-news h6 {
-    width: 60%;
+#news-body .latest-news .img-news img{
+    width: 100%;
+    height: auto;
+}
+
+#news-body .latest-news .text-latest-news {
+    width: 67%;
     float: left;
+}
+
+#news-body .latest-news .text-latest-news h6{
     padding-left: 5px;
     font-weight: 400;
     font-size: 14px;
